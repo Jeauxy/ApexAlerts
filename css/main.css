@@ -3,9 +3,7 @@
 /* =================================== */
 
 #profession{
-  display: block;
   margin-right: 12px;
-  font-size: 18px;
 }
 body {
   background-color: #fff;
@@ -313,7 +311,7 @@ h1.navbar-brand {
   min-height: 100%;
   position: absolute;
   text-align: center;
-  top: 100px;
+  top: 0;
   width: 100%;
   z-index: 11;
 }
@@ -321,7 +319,6 @@ h1.navbar-brand {
 .slide-caption .caption-content {
   vertical-align: middle;
   display: table-cell;
-  padding-bottom: 100px;
 }
 
 .caption-content h1 {
@@ -527,23 +524,8 @@ ul.external li a:hover {
 	About
 ==================================================================*/
 
-#description{
+#steve-jobs{
   text-align: center;
-  width: 800px;
-  margin-left: 275px;
-  padding-left: 70px;
-}
-
-#description2{
-  text-align: center;
-  color: #000;
-  width: 800px;
-  margin-left: 130px;
-  padding-left: 70px;
-}
-
-#description2{
-  color: #000;
 }
 
 #about {
@@ -553,8 +535,8 @@ ul.external li a:hover {
   color: #fff;
 }
 
-#about h2, h3, p {
-  color: #000;
+#about h2, h3 {
+  color: #fff;
   margin: 0 0 35px;
   text-transform: uppercase;
 }
@@ -564,7 +546,7 @@ ul.external li a:hover {
 }
 
 #about .overlay {
-  background-color: #fff;
+  background-color: #000
   padding: 70px 0 40px;
 }
 
@@ -576,7 +558,7 @@ ul.external li a:hover {
 
 .about-item img {
   border: 3px solid #fff;
-  border-radius: 50%;
+  border-radius: 10%;
   display: inline-block;
   height: auto;
   max-width: 250px;
@@ -593,10 +575,6 @@ ul.external li a:hover {
   line-height: 40px;
 }
 
-#image1{
-
-}
-
 
 /*=================================================================
 	Resume
@@ -607,8 +585,7 @@ ul.external li a:hover {
 }
 
 #social .overlay {
-  /* background: url("../img/Macbook.jpeg") repeat scroll 0 0 transparent; */
-  color: #000;
+  background: url("../img/Macbook.jpeg") repeat scroll 0 0 transparent;
   background-position: center;
   background-size: cover;
   padding: 100px 0 120px;
@@ -617,7 +594,6 @@ ul.external li a:hover {
 .social-button {
   margin: 0;
   padding: 0;
-  padding-left: 63px;
   list-style: none;
   text-align: center;
 }
@@ -633,7 +609,7 @@ ul.external li a:hover {
 .social-button li a {
   border: 2px solid #000;
   border-radius: 50%;
-  color: #000;
+  color: #38A1F3;
   display: block;
   height: 90px;
   line-height: 96px;
@@ -688,7 +664,7 @@ ul.external li a:hover {
 
 #contact {
   background-color: #fff;
-  color: #fff;
+  color: #000;
 }
 
 #contact h2, h3 {
@@ -941,10 +917,6 @@ figcaption.mask {
 
 .caption-content h2 {
   font-size: 35px;
-}
-
-.caption-content-image {
-  padding-top: 500px;
 }
 
 .caption-content p {
