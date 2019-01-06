@@ -3,6 +3,7 @@
 /* =================================== */
 
 #profession{
+  display: block;
   margin-right: 12px;
   font-size: 18px;
 }
@@ -312,7 +313,7 @@ h1.navbar-brand {
   min-height: 100%;
   position: absolute;
   text-align: center;
-  top: 30px;
+  top: 10px;
   width: 100%;
   z-index: 11;
 }
