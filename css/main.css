@@ -312,7 +312,7 @@ h1.navbar-brand {
   min-height: 100%;
   position: absolute;
   text-align: center;
-  top: 0;
+  top: 30px;
   width: 100%;
   z-index: 11;
 }
@@ -546,14 +546,13 @@ ul.external li a:hover {
 
 #about {
   background-color: #000;
-  /* background-image: url("../img/DJ.jpeg"); */
   background-position: center;
   padding: 0;
   color: #fff;
 }
 
-#about h2, h3 {
-  color: #fff;
+#about h2, h3, p {
+  color: #000;
   margin: 0 0 35px;
   text-transform: uppercase;
 }
@@ -563,7 +562,7 @@ ul.external li a:hover {
 }
 
 #about .overlay {
-  background-color: rgba(15,155,224, 0.78);
+  background-color: #fff;
   padding: 70px 0 40px;
 }
 
@@ -590,6 +589,10 @@ ul.external li a:hover {
   font-size: 20px;
   text-align: left;
   line-height: 40px;
+}
+
+#image1{
+
 }
 
 
@@ -936,6 +939,10 @@ figcaption.mask {
 
 .caption-content h2 {
   font-size: 35px;
+}
+
+.caption-content-image {
+  padding-top: 500px;
 }
 
 .caption-content p {
